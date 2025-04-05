@@ -17,11 +17,11 @@ function App() {
   return (
     <div className="app-container">
       {/* LATERAL IZQUIERDO */}
-      <div className="firework-cluster left">
+      {/* <div className="firework-cluster left">
         {leftSide.map((gif, i) => (
           <img key={i} src={gif} className="firework-gif" />
         ))}
-      </div>
+      </div> */}
 
       {/* CONTENIDO PRINCIPAL */}
       <motion.div
@@ -56,7 +56,7 @@ function App() {
           PROXIMAMENTE
         </motion.h2>
 
-        <motion.div
+        {/* <motion.div
           className="social-icons"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -71,15 +71,15 @@ function App() {
           <a href="mailto:ventas@tudominio.com">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-        </motion.div>
+        </motion.div> */}
       </motion.div>
 
       {/* LATERAL DERECHO */}
-      <div className="firework-cluster right">
+      {/* <div className="firework-cluster right">
         {rightSide.map((gif, i) => (
           <img key={i} src={gif} className="firework-gif" />
         ))}
-      </div>
+      </div> */}
     </div>
   )
 }
