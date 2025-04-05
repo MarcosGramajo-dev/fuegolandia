@@ -1,0 +1,12 @@
+# robots.txt para FUEGOLANDIA
+
+# Permitir que todos los bots accedan al sitio
+User-agent: *
+Disallow:
+
+# Opcional: bloquear carpetas específicas (ejemplo, si usas admin o test folders)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Señalar la ubicación del sitemap (cuando lo tengas)
+Sitemap: https://fuegolandia.com.ar/sitemap.xml
