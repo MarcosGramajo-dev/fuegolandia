@@ -84,8 +84,7 @@ body {
 @media (max-width: 768px) {
   .app-container {
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 40px;
+    justify-content: space-evenly;
   }
 
   .firework-cluster {
