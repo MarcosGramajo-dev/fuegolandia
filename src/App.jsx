@@ -33,6 +33,7 @@ function App() {
         <motion.img
           src={Logo}
           height="150px"
+          alt="Logo"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
